@@ -1,0 +1,151 @@
+.thanku-msg-div {
+  margin-top: 30px;
+}
+.icon-div {
+  padding: 16px;
+  font-size: 72px;
+  color: rgb(39, 232, 39);
+}
+.thk-message {
+  margin: 0px;
+  justify-content: center;
+  font-size: 16px;
+  margin: 10px 0px;
+  font-weight: 600;
+  display: flex;
+  gap: 6px;
+}
+.thk-message span {
+  color: var(--main-color);
+  font-weight: 600;
+}
+.order-info,
+.order-details,
+.order-items-table {
+  padding: 16px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.order-info h4 {
+  font-size: 18px;
+  margin: 0px;
+  font-weight: 600;
+}
+.order-info p,
+.order-data p {
+  margin: 0px;
+  font-size: 14px;
+}
+.order-details h2,
+.order-items-table h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.order-data {
+  gap: 5px;
+  margin: 20px 0px;
+}
+.order-data h6 {
+  font-size: 16px;
+  margin: 0px;
+}
+.order-items-table {
+  border: 0px;
+  padding: 0px;
+}
+.order-items-table table {
+  word-wrap: break-word;
+  padding: 5px;
+}
+.order-items-table table thead {
+  border-collapse: collapse;
+  color: #000000;
+  background:#E1E1E1;
+}
+.order-items-table table thead th:first-child,
+.order-items-table table thead th:last-child {
+  border-color: #eee;
+}
+
+.order-items-table table thead th,
+.order-items-table table tbody td {
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #eee;
+}
+.subt {
+  text-align: right;
+  font-weight: 600;
+}
+.coupon-parent {
+  margin-top: 30px;
+}
+.coupon_card{
+  padding: 5px;
+}
+.coupon-div {
+  border-radius: 16px;
+  background: linear-gradient(45deg, #000, #2c2c2c);
+  overflow: hidden;
+  position: relative;
+  min-height: 250px;
+  z-index: +1;
+  display: flex;
+  align-items: center;
+}
+.coupon-div img {
+  width: 100%;
+  display: inline-block;
+  filter: grayscale(1);
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.coupon-content-div {
+  position: relative;
+  z-index: +1;
+  padding: 16px;
+  color: #fff;
+  gap: 12px;
+}
+.coupon-service-title {
+  font-size: 18px;
+  margin: 0px;
+}
+.coupon-service-p {
+  font-size: 14px;
+  margin: 0px;
+}
+.lbl {
+  color: var(--main-color);
+}
+.coupon-code {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #fff;
+  margin: 0px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.custom-summary-box {
+    margin-top: 30px;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.order-expensive-div {
+  padding: 10px 0px;
+}
+.order-expensive-div span {
+  font-size: 16px;
+  color: #676767;
+  font-weight: 500;
+}

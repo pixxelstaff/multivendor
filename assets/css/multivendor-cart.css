@@ -1,0 +1,202 @@
+.body-unscroll {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.cart-parent-div {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: +9999;
+}
+.cart-overly-div {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transform: translateX(100%);
+  transition: 0.5s linear all;
+}
+.multivendor-cart-div {
+  width: 360px;
+  height: 100vh;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #fff;
+  padding: 50px 5px;
+  transform: translateX(100%);
+  transition: 0.5s cubic-bezier(0.28, 0.78, 1, 0.99) all;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-track-color: transparent;
+}
+
+.close-cart-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  color: black;
+  text-decoration: none;
+  transition: 0.2s ease-in-out all;
+}
+.close-cart-btn:hover {
+  transform: rotate(90deg);
+}
+.vector-bg-div {
+  display: flex;
+  height: 150px;
+  background: url("../../images/dashboard-img/cartt.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 50px;
+}
+.cart-message-p {
+  font-size: 14px;
+  text-align: center;
+  color: #b1b0b0;
+  margin: 15px 0px 0px 0px;
+}
+.cart-item{
+  position: relative;
+}
+.remove-item{
+  color: var(--main-color);
+  font-size: 12px;
+  text-align: none;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+.cart-item,
+.sub-total-div {
+  padding: 10px 0px;
+  border-bottom: 1px dashed #eee;
+}
+.cart-item-img {
+  padding: 5px;
+}
+.cart-item-img img {
+  width: 100%;
+  display: inline-block;
+  max-height: 60px;
+  object-fit: contain;
+}
+.cart-item-content {
+  padding: 0px 5px 5px 5px;
+}
+
+.c-item-title,
+.quantity-div,
+.multipled-price,
+.subtotal-label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  margin: 0px;
+}
+.c-item-title{
+  padding-right: 10px;
+}
+.sub-total-div {
+  padding: 15px 5px;
+  border-color: #000;
+}
+.subtotal-label {
+  font-size: 16px;
+}
+.subtotal-label:last-child {
+  color: rgb(255, 157, 0);
+  font-weight: 600;
+}
+.cart-action-btn {
+  padding: 14px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out all;
+}
+.cart-action-btn:hover {
+  background: #ff9900;
+}
+
+/*toast css starts here*/
+
+.m-toast {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: fixed;
+  width: 420px;
+  left: 60px;
+  bottom: 60px;
+  z-index: +999;
+  overflow: hidden;
+  padding: 10px;
+}
+.toast-child {
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  background: #fff;
+  font-size: 14px;
+  position: relative;
+}
+.toast-child span {
+  font-size: 18px;
+}
+.toast-child::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #000;
+  animation: 6s squeeze linear;
+}
+.success.toast-child::after {
+  background: rgb(15, 209, 15);
+}
+.error.toast-child::after {
+  background: rgb(209, 60, 15);
+}
+.invalid.toast-child::after {
+  background: #f7da03;
+}
+@keyframes squeeze {
+  100% {
+    width: 0%;
+  }
+}
+.success.toast-child span {
+  color: rgb(15, 209, 15);
+}
+.error.toast-child span {
+  color: rgb(237, 73, 23);
+}
+.invalid.toast-child span {
+  color: #f7da03;
+}

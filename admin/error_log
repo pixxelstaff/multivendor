@@ -1,0 +1,50 @@
+[28-May-2024 14:06:19 UTC] PHP Warning:  Undefined array key "email" in /home/admsindhfu/ml.sindhfurniture.com/admin/include/navbar.php on line 123
+[28-May-2024 14:06:19 UTC] PHP Warning:  Undefined variable $user__id in /home/admsindhfu/ml.sindhfurniture.com/admin/index.php on line 40
+[29-May-2024 08:57:48 UTC] PHP Warning:  Undefined array key "email" in /home/admsindhfu/ml.sindhfurniture.com/admin/include/navbar.php on line 123
+[29-May-2024 08:57:48 UTC] PHP Warning:  Undefined variable $user__id in /home/admsindhfu/ml.sindhfurniture.com/admin/index.php on line 40
+[29-May-2024 09:03:01 UTC] PHP Warning:  Undefined array key "email" in /home/admsindhfu/ml.sindhfurniture.com/admin/include/navbar.php on line 123
+[29-May-2024 09:03:11 UTC] PHP Warning:  Undefined array key "email" in /home/admsindhfu/ml.sindhfurniture.com/admin/include/navbar.php on line 123
+[29-May-2024 09:03:11 UTC] PHP Warning:  Undefined variable $user__id in /home/admsindhfu/ml.sindhfurniture.com/admin/index.php on line 40
+[29-May-2024 13:27:03 UTC] PHP Warning:  Undefined array key "email" in /home/admsindhfu/ml.sindhfurniture.com/admin/include/navbar.php on line 123
+[30-May-2024 15:24:17 UTC] PHP Warning:  Undefined array key "email" in /home/admsindhfu/ml.sindhfurniture.com/admin/include/navbar.php on line 123
+[30-May-2024 15:24:17 UTC] PHP Warning:  Undefined variable $user__id in /home/admsindhfu/ml.sindhfurniture.com/admin/index.php on line 40
+[01-Jun-2024 12:07:53 UTC] PHP Warning:  Undefined array key "email" in /home/admsindhfu/ml.sindhfurniture.com/admin/include/navbar.php on line 123
+[01-Jun-2024 12:07:53 UTC] PHP Warning:  Undefined variable $user__id in /home/admsindhfu/ml.sindhfurniture.com/admin/index.php on line 40
+[01-Jun-2024 13:48:11 UTC] PHP Warning:  Undefined array key "email" in /home/admsindhfu/ml.sindhfurniture.com/admin/include/navbar.php on line 123
+[01-Jun-2024 13:48:11 UTC] PHP Warning:  Undefined variable $user__id in /home/admsindhfu/ml.sindhfurniture.com/admin/index.php on line 40
+[04-Jun-2024 16:42:35 UTC] PHP Warning:  Undefined array key "email" in /home/admsindhfu/ml.sindhfurniture.com/admin/include/navbar.php on line 123
+[04-Jun-2024 16:42:35 UTC] PHP Warning:  Undefined variable $user__id in /home/admsindhfu/ml.sindhfurniture.com/admin/index.php on line 40
+[07-Jun-2024 13:45:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function fetchCol2DetailsWithNot() in /home/admsindhfu/ml.sindhfurniture.com/admin/include/sidebar.php:14
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/admin/index.php(23): include()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/admin/include/sidebar.php on line 14
+[07-Jun-2024 13:45:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function fetchCol2DetailsWithNot() in /home/admsindhfu/ml.sindhfurniture.com/admin/include/sidebar.php:14
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/admin/index.php(23): include()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/admin/include/sidebar.php on line 14
+[07-Jun-2024 13:45:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function fetchCol2DetailsWithNot() in /home/admsindhfu/ml.sindhfurniture.com/admin/include/sidebar.php:14
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/admin/index.php(23): include()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/admin/include/sidebar.php on line 14
+[07-Jun-2024 14:02:24 UTC] PHP Warning:  Undefined variable $suc__msg in /home/admsindhfu/ml.sindhfurniture.com/admin/services-orders.php on line 354
+[07-Jun-2024 14:02:46 UTC] PHP Warning:  Undefined variable $suc__msg in /home/admsindhfu/ml.sindhfurniture.com/admin/item-trash.php on line 362
+[07-Jun-2024 15:11:52 UTC] PHP Warning:  Undefined array key "email" in /home/admsindhfu/ml.sindhfurniture.com/admin/include/navbar.php on line 123
+[07-Jun-2024 15:11:52 UTC] PHP Warning:  Undefined variable $user__id in /home/admsindhfu/ml.sindhfurniture.com/admin/index.php on line 40
+[07-Jun-2024 15:51:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/admsindhfu/ml.sindhfurniture.com/admin/product-detail.php on line 260
+[07-Jun-2024 15:51:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/admsindhfu/ml.sindhfurniture.com/admin/product-detail.php on line 261
+[08-Jun-2024 11:51:46 UTC] PHP Warning:  Undefined array key "email" in /home/admsindhfu/ml.sindhfurniture.com/admin/include/navbar.php on line 123
+[08-Jun-2024 11:51:46 UTC] PHP Warning:  Undefined variable $user__id in /home/admsindhfu/ml.sindhfurniture.com/admin/index.php on line 40
+[08-Jun-2024 12:01:37 UTC] PHP Warning:  Undefined array key "email" in /home/admsindhfu/ml.sindhfurniture.com/admin/include/navbar.php on line 123
+[08-Jun-2024 12:01:37 UTC] PHP Warning:  Undefined variable $user__id in /home/admsindhfu/ml.sindhfurniture.com/admin/index.php on line 40
+[08-Jun-2024 16:00:38 UTC] PHP Warning:  Undefined array key "id" in /home/admsindhfu/ml.sindhfurniture.com/admin/service-trash.php on line 184
+[08-Jun-2024 16:00:38 UTC] PHP Warning:  Undefined array key "id" in /home/admsindhfu/ml.sindhfurniture.com/admin/service-trash.php on line 184
+[08-Jun-2024 16:00:38 UTC] PHP Warning:  Undefined array key "id" in /home/admsindhfu/ml.sindhfurniture.com/admin/service-trash.php on line 184
+[08-Jun-2024 16:00:38 UTC] PHP Warning:  Undefined array key "id" in /home/admsindhfu/ml.sindhfurniture.com/admin/service-trash.php on line 184
+[08-Jun-2024 16:00:38 UTC] PHP Warning:  Undefined array key "id" in /home/admsindhfu/ml.sindhfurniture.com/admin/service-trash.php on line 184
+[08-Jun-2024 16:00:38 UTC] PHP Warning:  Undefined array key "id" in /home/admsindhfu/ml.sindhfurniture.com/admin/service-trash.php on line 184
+[08-Jun-2024 16:00:38 UTC] PHP Warning:  Undefined array key "id" in /home/admsindhfu/ml.sindhfurniture.com/admin/service-trash.php on line 184
+[08-Jun-2024 16:00:38 UTC] PHP Warning:  Undefined array key "id" in /home/admsindhfu/ml.sindhfurniture.com/admin/service-trash.php on line 184
+[08-Jun-2024 16:00:38 UTC] PHP Warning:  Undefined array key "id" in /home/admsindhfu/ml.sindhfurniture.com/admin/service-trash.php on line 184

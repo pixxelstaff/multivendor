@@ -1,0 +1,750 @@
+[
+// {name: 'Andorra', official_name: 'Principality of Andorra', topLevelDomain: Array(1), alpha2Code: 'AD', alpha3Code: 'AND', …}
+// ae
+// : 
+// {name: 'United Arab Emirates', official_name: 'United Arab Emirates', topLevelDomain: Array(1), alpha2Code: 'AE', alpha3Code: 'ARE', …}
+// af
+// : 
+// {name: 'Afghanistan', official_name: 'Islamic Republic of Afghanistan', topLevelDomain: Array(1), alpha2Code: 'AF', alpha3Code: 'AFG', …}
+// ag
+// : 
+// {name: 'Antigua and Barbuda', official_name: 'Antigua and Barbuda', topLevelDomain: Array(1), alpha2Code: 'AG', alpha3Code: 'ATG', …}
+// ai
+// : 
+// {name: 'Anguilla', official_name: 'Anguilla', topLevelDomain: Array(1), alpha2Code: 'AI', alpha3Code: 'AIA', …}
+// al
+// : 
+// {name: 'Albania', official_name: 'Republic of Albania', topLevelDomain: Array(1), alpha2Code: 'AL', alpha3Code: 'ALB', …}
+// am
+// : 
+// {name: 'Armenia', official_name: 'Republic of Armenia', topLevelDomain: Array(1), alpha2Code: 'AM', alpha3Code: 'ARM', …}
+// ao
+// : 
+// {name: 'Angola', official_name: 'Republic of Angola', topLevelDomain: Array(1), alpha2Code: 'AO', alpha3Code: 'AGO', …}
+// aq
+// : 
+// {name: 'Antarctica', official_name: 'Antarctica', topLevelDomain: Array(1), alpha2Code: 'AQ', alpha3Code: 'ATA', …}
+// ar
+// : 
+// {name: 'Argentina', official_name: 'Argentine Republic', topLevelDomain: Array(1), alpha2Code: 'AR', alpha3Code: 'ARG', …}
+// as
+// : 
+// {name: 'American Samoa', official_name: 'American Samoa', topLevelDomain: Array(1), alpha2Code: 'AS', alpha3Code: 'ASM', …}
+// at
+// : 
+// {name: 'Austria', official_name: 'Republic of Austria', topLevelDomain: Array(1), alpha2Code: 'AT', alpha3Code: 'AUT', …}
+// au
+// : 
+// {name: 'Australia', official_name: 'Commonwealth of Australia', topLevelDomain: Array(1), alpha2Code: 'AU', alpha3Code: 'AUS', …}
+// aw
+// : 
+// {name: 'Aruba', official_name: 'Aruba', topLevelDomain: Array(1), alpha2Code: 'AW', alpha3Code: 'ABW', …}
+// ax
+// : 
+// {name: 'Åland Islands', official_name: 'Åland Islands', topLevelDomain: Array(1), alpha2Code: 'AX', alpha3Code: 'ALA', …}
+// az
+// : 
+// {name: 'Azerbaijan', official_name: 'Republic of Azerbaijan', topLevelDomain: Array(1), alpha2Code: 'AZ', alpha3Code: 'AZE', …}
+// ba
+// : 
+// {name: 'Bosnia and Herzegovina', official_name: 'Bosnia and Herzegovina', topLevelDomain: Array(1), alpha2Code: 'BA', alpha3Code: 'BIH', …}
+// bb
+// : 
+// {name: 'Barbados', official_name: 'Barbados', topLevelDomain: Array(1), alpha2Code: 'BB', alpha3Code: 'BRB', …}
+// bd
+// : 
+// {name: 'Bangladesh', official_name: "People's Republic of Bangladesh", topLevelDomain: Array(1), alpha2Code: 'BD', alpha3Code: 'BGD', …}
+// be
+// : 
+// {name: 'Belgium', official_name: 'Kingdom of Belgium', topLevelDomain: Array(1), alpha2Code: 'BE', alpha3Code: 'BEL', …}
+// bf
+// : 
+// {name: 'Burkina Faso', official_name: 'Burkina Faso', topLevelDomain: Array(1), alpha2Code: 'BF', alpha3Code: 'BFA', …}
+// bg
+// : 
+// {name: 'Bulgaria', official_name: 'Republic of Bulgaria', topLevelDomain: Array(1), alpha2Code: 'BG', alpha3Code: 'BGR', …}
+// bh
+// : 
+// {name: 'Bahrain', official_name: 'Kingdom of Bahrain', topLevelDomain: Array(1), alpha2Code: 'BH', alpha3Code: 'BHR', …}
+// bi
+// : 
+// {name: 'Burundi', official_name: 'Republic of Burundi', topLevelDomain: Array(1), alpha2Code: 'BI', alpha3Code: 'BDI', …}
+// bj
+// : 
+// {name: 'Benin', official_name: 'Republic of Benin', topLevelDomain: Array(1), alpha2Code: 'BJ', alpha3Code: 'BEN', …}
+// bl
+// : 
+// {name: 'Saint Barthélemy', official_name: 'Collectivity of Saint Barthélemy', topLevelDomain: Array(1), alpha2Code: 'BL', alpha3Code: 'BLM', …}
+// bm
+// : 
+// {name: 'Bermuda', official_name: 'Bermuda', topLevelDomain: Array(1), alpha2Code: 'BM', alpha3Code: 'BMU', …}
+// bn
+// : 
+// {name: 'Brunei', official_name: 'Nation of Brunei, Abode of Peace', topLevelDomain: Array(1), alpha2Code: 'BN', alpha3Code: 'BRN', …}
+// bo
+// : 
+// {name: 'Bolivia', official_name: 'Plurinational State of Bolivia', topLevelDomain: Array(1), alpha2Code: 'BO', alpha3Code: 'BOL', …}
+// bq
+// : 
+// {name: 'Caribbean Netherlands', official_name: 'Bonaire, Sint Eustatius and Saba', topLevelDomain: Array(1), alpha2Code: 'BQ', alpha3Code: 'BES', …}
+// br
+// : 
+// {name: 'Brazil', official_name: 'Federative Republic of Brazil', topLevelDomain: Array(1), alpha2Code: 'BR', alpha3Code: 'BRA', …}
+// bs
+// : 
+// {name: 'Bahamas', official_name: 'Commonwealth of the Bahamas', topLevelDomain: Array(1), alpha2Code: 'BS', alpha3Code: 'BHS', …}
+// bt
+// : 
+// {name: 'Bhutan', official_name: 'Kingdom of Bhutan', topLevelDomain: Array(1), alpha2Code: 'BT', alpha3Code: 'BTN', …}
+// bv
+// : 
+// {name: 'Bouvet Island', official_name: 'Bouvet Island', topLevelDomain: Array(1), alpha2Code: 'BV', alpha3Code: 'BVT', …}
+// bw
+// : 
+// {name: 'Botswana', official_name: 'Republic of Botswana', topLevelDomain: Array(1), alpha2Code: 'BW', alpha3Code: 'BWA', …}
+// by
+// : 
+// {name: 'Belarus', official_name: 'Republic of Belarus', topLevelDomain: Array(1), alpha2Code: 'BY', alpha3Code: 'BLR', …}
+// bz
+// : 
+// {name: 'Belize', official_name: 'Belize', topLevelDomain: Array(1), alpha2Code: 'BZ', alpha3Code: 'BLZ', …}
+// ca
+// : 
+// {name: 'Canada', official_name: 'Canada', topLevelDomain: Array(1), alpha2Code: 'CA', alpha3Code: 'CAN', …}
+// cc
+// : 
+// {name: 'Cocos (Keeling) Islands', official_name: 'Territory of the Cocos (Keeling) Islands', topLevelDomain: Array(1), alpha2Code: 'CC', alpha3Code: 'CCK', …}
+// cd
+// : 
+// {name: 'DR Congo', official_name: 'Democratic Republic of the Congo', topLevelDomain: Array(1), alpha2Code: 'CD', alpha3Code: 'COD', …}
+// cf
+// : 
+// {name: 'Central African Republic', official_name: 'Central African Republic', topLevelDomain: Array(1), alpha2Code: 'CF', alpha3Code: 'CAF', …}
+// cg
+// : 
+// {name: 'Republic of the Congo', official_name: 'Republic of the Congo', topLevelDomain: Array(1), alpha2Code: 'CG', alpha3Code: 'COG', …}
+// ch
+// : 
+// {name: 'Switzerland', official_name: 'Swiss Confederation', topLevelDomain: Array(1), alpha2Code: 'CH', alpha3Code: 'CHE', …}
+// ci
+// : 
+// {name: 'Ivory Coast', official_name: "Republic of Côte d'Ivoire", topLevelDomain: Array(1), alpha2Code: 'CI', alpha3Code: 'CIV', …}
+// ck
+// : 
+// {name: 'Cook Islands', official_name: 'Cook Islands', topLevelDomain: Array(1), alpha2Code: 'CK', alpha3Code: 'COK', …}
+// cl
+// : 
+// {name: 'Chile', official_name: 'Republic of Chile', topLevelDomain: Array(1), alpha2Code: 'CL', alpha3Code: 'CHL', …}
+// cm
+// : 
+// {name: 'Cameroon', official_name: 'Republic of Cameroon', topLevelDomain: Array(1), alpha2Code: 'CM', alpha3Code: 'CMR', …}
+// cn
+// : 
+// {name: 'China', official_name: "People's Republic of China", topLevelDomain: Array(1), alpha2Code: 'CN', alpha3Code: 'CHN', …}
+// co
+// : 
+// {name: 'Colombia', official_name: 'Republic of Colombia', topLevelDomain: Array(1), alpha2Code: 'CO', alpha3Code: 'COL', …}
+// cr
+// : 
+// {name: 'Costa Rica', official_name: 'Republic of Costa Rica', topLevelDomain: Array(1), alpha2Code: 'CR', alpha3Code: 'CRI', …}
+// cu
+// : 
+// {name: 'Cuba', official_name: 'Republic of Cuba', topLevelDomain: Array(1), alpha2Code: 'CU', alpha3Code: 'CUB', …}
+// cv
+// : 
+// {name: 'Cape Verde', official_name: 'Republic of Cabo Verde', topLevelDomain: Array(1), alpha2Code: 'CV', alpha3Code: 'CPV', …}
+// cw
+// : 
+// {name: 'Curaçao', official_name: 'Country of Curaçao', topLevelDomain: Array(1), alpha2Code: 'CW', alpha3Code: 'CUW', …}
+// cx
+// : 
+// {name: 'Christmas Island', official_name: 'Territory of Christmas Island', topLevelDomain: Array(1), alpha2Code: 'CX', alpha3Code: 'CXR', …}
+// cy
+// : 
+// {name: 'Cyprus', official_name: 'Republic of Cyprus', topLevelDomain: Array(1), alpha2Code: 'CY', alpha3Code: 'CYP', …}
+// cz
+// : 
+// {name: 'Czechia', official_name: 'Czech Republic', topLevelDomain: Array(1), alpha2Code: 'CZ', alpha3Code: 'CZE', …}
+// de
+// : 
+// {name: 'Germany', official_name: 'Federal Republic of Germany', topLevelDomain: Array(1), alpha2Code: 'DE', alpha3Code: 'DEU', …}
+// dj
+// : 
+// {name: 'Djibouti', official_name: 'Republic of Djibouti', topLevelDomain: Array(1), alpha2Code: 'DJ', alpha3Code: 'DJI', …}
+// dk
+// : 
+// {name: 'Denmark', official_name: 'Kingdom of Denmark', topLevelDomain: Array(1), alpha2Code: 'DK', alpha3Code: 'DNK', …}
+// dm
+// : 
+// {name: 'Dominica', official_name: 'Commonwealth of Dominica', topLevelDomain: Array(1), alpha2Code: 'DM', alpha3Code: 'DMA', …}
+// do
+// : 
+// {name: 'Dominican Republic', official_name: 'Dominican Republic', topLevelDomain: Array(1), alpha2Code: 'DO', alpha3Code: 'DOM', …}
+// dz
+// : 
+// {name: 'Algeria', official_name: "People's Democratic Republic of Algeria", topLevelDomain: Array(1), alpha2Code: 'DZ', alpha3Code: 'DZA', …}
+// ec
+// : 
+// {name: 'Ecuador', official_name: 'Republic of Ecuador', topLevelDomain: Array(1), alpha2Code: 'EC', alpha3Code: 'ECU', …}
+// ee
+// : 
+// {name: 'Estonia', official_name: 'Republic of Estonia', topLevelDomain: Array(1), alpha2Code: 'EE', alpha3Code: 'EST', …}
+// eg
+// : 
+// {name: 'Egypt', official_name: 'Arab Republic of Egypt', topLevelDomain: Array(1), alpha2Code: 'EG', alpha3Code: 'EGY', …}
+// eh
+// : 
+// {name: 'Western Sahara', official_name: 'Sahrawi Arab Democratic Republic', topLevelDomain: Array(1), alpha2Code: 'EH', alpha3Code: 'ESH', …}
+// er
+// : 
+// {name: 'Eritrea', official_name: 'State of Eritrea', topLevelDomain: Array(1), alpha2Code: 'ER', alpha3Code: 'ERI', …}
+// es
+// : 
+// {name: 'Spain', official_name: 'Kingdom of Spain', topLevelDomain: Array(1), alpha2Code: 'ES', alpha3Code: 'ESP', …}
+// et
+// : 
+// {name: 'Ethiopia', official_name: 'Federal Democratic Republic of Ethiopia', topLevelDomain: Array(1), alpha2Code: 'ET', alpha3Code: 'ETH', …}
+// fi
+// : 
+// {name: 'Finland', official_name: 'Republic of Finland', topLevelDomain: Array(1), alpha2Code: 'FI', alpha3Code: 'FIN', …}
+// fj
+// : 
+// {name: 'Fiji', official_name: 'Republic of Fiji', topLevelDomain: Array(1), alpha2Code: 'FJ', alpha3Code: 'FJI', …}
+// fk
+// : 
+// {name: 'Falkland Islands', official_name: 'Falkland Islands', topLevelDomain: Array(1), alpha2Code: 'FK', alpha3Code: 'FLK', …}
+// fm
+// : 
+// {name: 'Micronesia', official_name: 'Federated States of Micronesia', topLevelDomain: Array(1), alpha2Code: 'FM', alpha3Code: 'FSM', …}
+// fo
+// : 
+// {name: 'Faroe Islands', official_name: 'Faroe Islands', topLevelDomain: Array(1), alpha2Code: 'FO', alpha3Code: 'FRO', …}
+// fr
+// : 
+// {name: 'France', official_name: 'French Republic', topLevelDomain: Array(1), alpha2Code: 'FR', alpha3Code: 'FRA', …}
+// ga
+// : 
+// {name: 'Gabon', official_name: 'Gabonese Republic', topLevelDomain: Array(1), alpha2Code: 'GA', alpha3Code: 'GAB', …}
+// gb
+// : 
+// {name: 'United Kingdom', official_name: 'United Kingdom of Great Britain and Northern Ireland', topLevelDomain: Array(1), alpha2Code: 'GB', alpha3Code: 'GBR', …}
+// gd
+// : 
+// {name: 'Grenada', official_name: 'Grenada', topLevelDomain: Array(1), alpha2Code: 'GD', alpha3Code: 'GRD', …}
+// ge
+// : 
+// {name: 'Georgia', official_name: 'Georgia', topLevelDomain: Array(1), alpha2Code: 'GE', alpha3Code: 'GEO', …}
+// gf
+// : 
+// {name: 'French Guiana', official_name: 'Guiana', topLevelDomain: Array(1), alpha2Code: 'GF', alpha3Code: 'GUF', …}
+// gg
+// : 
+// {name: 'Guernsey', official_name: 'Bailiwick of Guernsey', topLevelDomain: Array(1), alpha2Code: 'GG', alpha3Code: 'GGY', …}
+// gh
+// : 
+// {name: 'Ghana', official_name: 'Republic of Ghana', topLevelDomain: Array(1), alpha2Code: 'GH', alpha3Code: 'GHA', …}
+// gi
+// : 
+// {name: 'Gibraltar', official_name: 'Gibraltar', topLevelDomain: Array(1), alpha2Code: 'GI', alpha3Code: 'GIB', …}
+// gl
+// : 
+// {name: 'Greenland', official_name: 'Greenland', topLevelDomain: Array(1), alpha2Code: 'GL', alpha3Code: 'GRL', …}
+// gm
+// : 
+// {name: 'Gambia', official_name: 'Republic of the Gambia', topLevelDomain: Array(1), alpha2Code: 'GM', alpha3Code: 'GMB', …}
+// gn
+// : 
+// {name: 'Guinea', official_name: 'Republic of Guinea', topLevelDomain: Array(1), alpha2Code: 'GN', alpha3Code: 'GIN', …}
+// gp
+// : 
+// {name: 'Guadeloupe', official_name: 'Guadeloupe', topLevelDomain: Array(1), alpha2Code: 'GP', alpha3Code: 'GLP', …}
+// gq
+// : 
+// {name: 'Equatorial Guinea', official_name: 'Republic of Equatorial Guinea', topLevelDomain: Array(1), alpha2Code: 'GQ', alpha3Code: 'GNQ', …}
+// gr
+// : 
+// {name: 'Greece', official_name: 'Hellenic Republic', topLevelDomain: Array(1), alpha2Code: 'GR', alpha3Code: 'GRC', …}
+// gs
+// : 
+// {name: 'South Georgia', official_name: 'South Georgia and the South Sandwich Islands', topLevelDomain: Array(1), alpha2Code: 'GS', alpha3Code: 'SGS', …}
+// gt
+// : 
+// {name: 'Guatemala', official_name: 'Republic of Guatemala', topLevelDomain: Array(1), alpha2Code: 'GT', alpha3Code: 'GTM', …}
+// gu
+// : 
+// {name: 'Guam', official_name: 'Guam', topLevelDomain: Array(1), alpha2Code: 'GU', alpha3Code: 'GUM', …}
+// gw
+// : 
+// {name: 'Guinea-Bissau', official_name: 'Republic of Guinea-Bissau', topLevelDomain: Array(1), alpha2Code: 'GW', alpha3Code: 'GNB', …}
+// gy
+// : 
+// {name: 'Guyana', official_name: 'Co-operative Republic of Guyana', topLevelDomain: Array(1), alpha2Code: 'GY', alpha3Code: 'GUY', …}
+// hk
+// : 
+// {name: 'Hong Kong', official_name: "Hong Kong Special Administrative Region of the People's Republic of China", topLevelDomain: Array(1), alpha2Code: 'HK', alpha3Code: 'HKG', …}
+// hm
+// : 
+// {name: 'Heard Island and McDonald Islands', official_name: 'Heard Island and McDonald Islands', topLevelDomain: Array(1), alpha2Code: 'HM', alpha3Code: 'HMD', …}
+// hn
+// : 
+// {name: 'Honduras', official_name: 'Republic of Honduras', topLevelDomain: Array(1), alpha2Code: 'HN', alpha3Code: 'HND', …}
+// hr
+// : 
+// {name: 'Croatia', official_name: 'Republic of Croatia', topLevelDomain: Array(1), alpha2Code: 'HR', alpha3Code: 'HRV', …}
+// ht
+// : 
+// {name: 'Haiti', official_name: 'Republic of Haiti', topLevelDomain: Array(1), alpha2Code: 'HT', alpha3Code: 'HTI', …}
+// hu
+// : 
+// {name: 'Hungary', official_name: 'Hungary', topLevelDomain: Array(1), alpha2Code: 'HU', alpha3Code: 'HUN', …}
+// id
+// : 
+// {name: 'Indonesia', official_name: 'Republic of Indonesia', topLevelDomain: Array(1), alpha2Code: 'ID', alpha3Code: 'IDN', …}
+// ie
+// : 
+// {name: 'Ireland', official_name: 'Republic of Ireland', topLevelDomain: Array(1), alpha2Code: 'IE', alpha3Code: 'IRL', …}
+// il
+// : 
+// {name: 'Israel', official_name: 'State of Israel', topLevelDomain: Array(1), alpha2Code: 'IL', alpha3Code: 'ISR', …}
+// im
+// : 
+// {name: 'Isle of Man', official_name: 'Isle of Man', topLevelDomain: Array(1), alpha2Code: 'IM', alpha3Code: 'IMN', …}
+// in
+// : 
+// {name: 'India', official_name: 'Republic of India', topLevelDomain: Array(1), alpha2Code: 'IN', alpha3Code: 'IND', …}
+// io
+// : 
+// {name: 'British Indian Ocean Territory', official_name: 'British Indian Ocean Territory', topLevelDomain: Array(1), alpha2Code: 'IO', alpha3Code: 'IOT', …}
+// iq
+// : 
+// {name: 'Iraq', official_name: 'Republic of Iraq', topLevelDomain: Array(1), alpha2Code: 'IQ', alpha3Code: 'IRQ', …}
+// ir
+// : 
+// {name: 'Iran', official_name: 'Islamic Republic of Iran', topLevelDomain: Array(1), alpha2Code: 'IR', alpha3Code: 'IRN', …}
+// is
+// : 
+// {name: 'Iceland', official_name: 'Iceland', topLevelDomain: Array(1), alpha2Code: 'IS', alpha3Code: 'ISL', …}
+// it
+// : 
+// {name: 'Italy', official_name: 'Italian Republic', topLevelDomain: Array(1), alpha2Code: 'IT', alpha3Code: 'ITA', …}
+// je
+// : 
+// {name: 'Jersey', official_name: 'Bailiwick of Jersey', topLevelDomain: Array(1), alpha2Code: 'JE', alpha3Code: 'JEY', …}
+// jm
+// : 
+// {name: 'Jamaica', official_name: 'Jamaica', topLevelDomain: Array(1), alpha2Code: 'JM', alpha3Code: 'JAM', …}
+// jo
+// : 
+// {name: 'Jordan', official_name: 'Hashemite Kingdom of Jordan', topLevelDomain: Array(1), alpha2Code: 'JO', alpha3Code: 'JOR', …}
+// jp
+// : 
+// {name: 'Japan', official_name: 'Japan', topLevelDomain: Array(1), alpha2Code: 'JP', alpha3Code: 'JPN', …}
+// ke
+// : 
+// {name: 'Kenya', official_name: 'Republic of Kenya', topLevelDomain: Array(1), alpha2Code: 'KE', alpha3Code: 'KEN', …}
+// kg
+// : 
+// {name: 'Kyrgyzstan', official_name: 'Kyrgyz Republic', topLevelDomain: Array(1), alpha2Code: 'KG', alpha3Code: 'KGZ', …}
+// kh
+// : 
+// {name: 'Cambodia', official_name: 'Kingdom of Cambodia', topLevelDomain: Array(1), alpha2Code: 'KH', alpha3Code: 'KHM', …}
+// ki
+// : 
+// {name: 'Kiribati', official_name: 'Independent and Sovereign Republic of Kiribati', topLevelDomain: Array(1), alpha2Code: 'KI', alpha3Code: 'KIR', …}
+// km
+// : 
+// {name: 'Comoros', official_name: 'Union of the Comoros', topLevelDomain: Array(1), alpha2Code: 'KM', alpha3Code: 'COM', …}
+// kn
+// : 
+// {name: 'Saint Kitts and Nevis', official_name: 'Federation of Saint Christopher and Nevis', topLevelDomain: Array(1), alpha2Code: 'KN', alpha3Code: 'KNA', …}
+// kp
+// : 
+// {name: 'North Korea', official_name: "Democratic People's Republic of Korea", topLevelDomain: Array(1), alpha2Code: 'KP', alpha3Code: 'PRK', …}
+// kr
+// : 
+// {name: 'South Korea', official_name: 'Republic of Korea', topLevelDomain: Array(1), alpha2Code: 'KR', alpha3Code: 'KOR', …}
+// kw
+// : 
+// {name: 'Kuwait', official_name: 'State of Kuwait', topLevelDomain: Array(1), alpha2Code: 'KW', alpha3Code: 'KWT', …}
+// ky
+// : 
+// {name: 'Cayman Islands', official_name: 'Cayman Islands', topLevelDomain: Array(1), alpha2Code: 'KY', alpha3Code: 'CYM', …}
+// kz
+// : 
+// {name: 'Kazakhstan', official_name: 'Republic of Kazakhstan', topLevelDomain: Array(1), alpha2Code: 'KZ', alpha3Code: 'KAZ', …}
+// la
+// : 
+// {name: 'Laos', official_name: "Lao People's Democratic Republic", topLevelDomain: Array(1), alpha2Code: 'LA', alpha3Code: 'LAO', …}
+// lb
+// : 
+// {name: 'Lebanon', official_name: 'Lebanese Republic', topLevelDomain: Array(1), alpha2Code: 'LB', alpha3Code: 'LBN', …}
+// lc
+// : 
+// {name: 'Saint Lucia', official_name: 'Saint Lucia', topLevelDomain: Array(1), alpha2Code: 'LC', alpha3Code: 'LCA', …}
+// li
+// : 
+// {name: 'Liechtenstein', official_name: 'Principality of Liechtenstein', topLevelDomain: Array(1), alpha2Code: 'LI', alpha3Code: 'LIE', …}
+// lk
+// : 
+// {name: 'Sri Lanka', official_name: 'Democratic Socialist Republic of Sri Lanka', topLevelDomain: Array(1), alpha2Code: 'LK', alpha3Code: 'LKA', …}
+// lr
+// : 
+// {name: 'Liberia', official_name: 'Republic of Liberia', topLevelDomain: Array(1), alpha2Code: 'LR', alpha3Code: 'LBR', …}
+// ls
+// : 
+// {name: 'Lesotho', official_name: 'Kingdom of Lesotho', topLevelDomain: Array(1), alpha2Code: 'LS', alpha3Code: 'LSO', …}
+// lt
+// : 
+// {name: 'Lithuania', official_name: 'Republic of Lithuania', topLevelDomain: Array(1), alpha2Code: 'LT', alpha3Code: 'LTU', …}
+// lu
+// : 
+// {name: 'Luxembourg', official_name: 'Grand Duchy of Luxembourg', topLevelDomain: Array(1), alpha2Code: 'LU', alpha3Code: 'LUX', …}
+// lv
+// : 
+// {name: 'Latvia', official_name: 'Republic of Latvia', topLevelDomain: Array(1), alpha2Code: 'LV', alpha3Code: 'LVA', …}
+// ly
+// : 
+// {name: 'Libya', official_name: 'State of Libya', topLevelDomain: Array(1), alpha2Code: 'LY', alpha3Code: 'LBY', …}
+// ma
+// : 
+// {name: 'Morocco', official_name: 'Kingdom of Morocco', topLevelDomain: Array(1), alpha2Code: 'MA', alpha3Code: 'MAR', …}
+// mc
+// : 
+// {name: 'Monaco', official_name: 'Principality of Monaco', topLevelDomain: Array(1), alpha2Code: 'MC', alpha3Code: 'MCO', …}
+// md
+// : 
+// {name: 'Moldova', official_name: 'Republic of Moldova', topLevelDomain: Array(1), alpha2Code: 'MD', alpha3Code: 'MDA', …}
+// me
+// : 
+// {name: 'Montenegro', official_name: 'Montenegro', topLevelDomain: Array(1), alpha2Code: 'ME', alpha3Code: 'MNE', …}
+// mf
+// : 
+// {name: 'Saint Martin', official_name: 'Saint Martin', topLevelDomain: Array(1), alpha2Code: 'MF', alpha3Code: 'MAF', …}
+// mg
+// : 
+// {name: 'Madagascar', official_name: 'Republic of Madagascar', topLevelDomain: Array(1), alpha2Code: 'MG', alpha3Code: 'MDG', …}
+// mh
+// : 
+// {name: 'Marshall Islands', official_name: 'Republic of the Marshall Islands', topLevelDomain: Array(1), alpha2Code: 'MH', alpha3Code: 'MHL', …}
+// mk
+// : 
+// {name: 'North Macedonia', official_name: 'Republic of North Macedonia', topLevelDomain: Array(1), alpha2Code: 'MK', alpha3Code: 'MKD', …}
+// ml
+// : 
+// {name: 'Mali', official_name: 'Republic of Mali', topLevelDomain: Array(1), alpha2Code: 'ML', alpha3Code: 'MLI', …}
+// mm
+// : 
+// {name: 'Myanmar', official_name: 'Republic of the Union of Myanmar', topLevelDomain: Array(1), alpha2Code: 'MM', alpha3Code: 'MMR', …}
+// mn
+// : 
+// {name: 'Mongolia', official_name: 'Mongolia', topLevelDomain: Array(1), alpha2Code: 'MN', alpha3Code: 'MNG', …}
+// mo
+// : 
+// {name: 'Macau', official_name: "Macao Special Administrative Region of the People's Republic of China", topLevelDomain: Array(1), alpha2Code: 'MO', alpha3Code: 'MAC', …}
+// mp
+// : 
+// {name: 'Northern Mariana Islands', official_name: 'Commonwealth of the Northern Mariana Islands', topLevelDomain: Array(1), alpha2Code: 'MP', alpha3Code: 'MNP', …}
+// mq
+// : 
+// {name: 'Martinique', official_name: 'Martinique', topLevelDomain: Array(1), alpha2Code: 'MQ', alpha3Code: 'MTQ', …}
+// mr
+// : 
+// {name: 'Mauritania', official_name: 'Islamic Republic of Mauritania', topLevelDomain: Array(1), alpha2Code: 'MR', alpha3Code: 'MRT', …}
+// ms
+// : 
+// {name: 'Montserrat', official_name: 'Montserrat', topLevelDomain: Array(1), alpha2Code: 'MS', alpha3Code: 'MSR', …}
+// mt
+// : 
+// {name: 'Malta', official_name: 'Republic of Malta', topLevelDomain: Array(1), alpha2Code: 'MT', alpha3Code: 'MLT', …}
+// mu
+// : 
+// {name: 'Mauritius', official_name: 'Republic of Mauritius', topLevelDomain: Array(1), alpha2Code: 'MU', alpha3Code: 'MUS', …}
+// mv
+// : 
+// {name: 'Maldives', official_name: 'Republic of the Maldives', topLevelDomain: Array(1), alpha2Code: 'MV', alpha3Code: 'MDV', …}
+// mw
+// : 
+// {name: 'Malawi', official_name: 'Republic of Malawi', topLevelDomain: Array(1), alpha2Code: 'MW', alpha3Code: 'MWI', …}
+// mx
+// : 
+// {name: 'Mexico', official_name: 'United Mexican States', topLevelDomain: Array(1), alpha2Code: 'MX', alpha3Code: 'MEX', …}
+// my
+// : 
+// {name: 'Malaysia', official_name: 'Malaysia', topLevelDomain: Array(1), alpha2Code: 'MY', alpha3Code: 'MYS', …}
+// mz
+// : 
+// {name: 'Mozambique', official_name: 'Republic of Mozambique', topLevelDomain: Array(1), alpha2Code: 'MZ', alpha3Code: 'MOZ', …}
+// na
+// : 
+// {name: 'Namibia', official_name: 'Republic of Namibia', topLevelDomain: Array(1), alpha2Code: 'NA', alpha3Code: 'NAM', …}
+// nc
+// : 
+// {name: 'New Caledonia', official_name: 'New Caledonia', topLevelDomain: Array(1), alpha2Code: 'NC', alpha3Code: 'NCL', …}
+// ne
+// : 
+// {name: 'Niger', official_name: 'Republic of Niger', topLevelDomain: Array(1), alpha2Code: 'NE', alpha3Code: 'NER', …}
+// nf
+// : 
+// {name: 'Norfolk Island', official_name: 'Territory of Norfolk Island', topLevelDomain: Array(1), alpha2Code: 'NF', alpha3Code: 'NFK', …}
+// ng
+// : 
+// {name: 'Nigeria', official_name: 'Federal Republic of Nigeria', topLevelDomain: Array(1), alpha2Code: 'NG', alpha3Code: 'NGA', …}
+// ni
+// : 
+// {name: 'Nicaragua', official_name: 'Republic of Nicaragua', topLevelDomain: Array(1), alpha2Code: 'NI', alpha3Code: 'NIC', …}
+// nl
+// : 
+// {name: 'Netherlands', official_name: 'Kingdom of the Netherlands', topLevelDomain: Array(1), alpha2Code: 'NL', alpha3Code: 'NLD', …}
+// no
+// : 
+// {name: 'Norway', official_name: 'Kingdom of Norway', topLevelDomain: Array(1), alpha2Code: 'NO', alpha3Code: 'NOR', …}
+// np
+// : 
+// {name: 'Nepal', official_name: 'Federal Democratic Republic of Nepal', topLevelDomain: Array(1), alpha2Code: 'NP', alpha3Code: 'NPL', …}
+// nr
+// : 
+// {name: 'Nauru', official_name: 'Republic of Nauru', topLevelDomain: Array(1), alpha2Code: 'NR', alpha3Code: 'NRU', …}
+// nu
+// : 
+// {name: 'Niue', official_name: 'Niue', topLevelDomain: Array(1), alpha2Code: 'NU', alpha3Code: 'NIU', …}
+// nz
+// : 
+// {name: 'New Zealand', official_name: 'New Zealand', topLevelDomain: Array(1), alpha2Code: 'NZ', alpha3Code: 'NZL', …}
+// om
+// : 
+// {name: 'Oman', official_name: 'Sultanate of Oman', topLevelDomain: Array(1), alpha2Code: 'OM', alpha3Code: 'OMN', …}
+// pa
+// : 
+// {name: 'Panama', official_name: 'Republic of Panama', topLevelDomain: Array(1), alpha2Code: 'PA', alpha3Code: 'PAN', …}
+// pe
+// : 
+// {name: 'Peru', official_name: 'Republic of Peru', topLevelDomain: Array(1), alpha2Code: 'PE', alpha3Code: 'PER', …}
+// pf
+// : 
+// {name: 'French Polynesia', official_name: 'French Polynesia', topLevelDomain: Array(1), alpha2Code: 'PF', alpha3Code: 'PYF', …}
+// pg
+// : 
+// {name: 'Papua New Guinea', official_name: 'Independent State of Papua New Guinea', topLevelDomain: Array(1), alpha2Code: 'PG', alpha3Code: 'PNG', …}
+// ph
+// : 
+// {name: 'Philippines', official_name: 'Republic of the Philippines', topLevelDomain: Array(1), alpha2Code: 'PH', alpha3Code: 'PHL', …}
+// pk
+// : 
+// {name: 'Pakistan', official_name: 'Islamic Republic of Pakistan', topLevelDomain: Array(1), alpha2Code: 'PK', alpha3Code: 'PAK', …}
+// pl
+// : 
+// {name: 'Poland', official_name: 'Republic of Poland', topLevelDomain: Array(1), alpha2Code: 'PL', alpha3Code: 'POL', …}
+// pm
+// : 
+// {name: 'Saint Pierre and Miquelon', official_name: 'Saint Pierre and Miquelon', topLevelDomain: Array(1), alpha2Code: 'PM', alpha3Code: 'SPM', …}
+// pn
+// : 
+// {name: 'Pitcairn Islands', official_name: 'Pitcairn Group of Islands', topLevelDomain: Array(1), alpha2Code: 'PN', alpha3Code: 'PCN', …}
+// pr
+// : 
+// {name: 'Puerto Rico', official_name: 'Commonwealth of Puerto Rico', topLevelDomain: Array(1), alpha2Code: 'PR', alpha3Code: 'PRI', …}
+// ps
+// : 
+// {name: 'Palestine', official_name: 'State of Palestine', topLevelDomain: Array(1), alpha2Code: 'PS', alpha3Code: 'PSE', …}
+// pt
+// : 
+// {name: 'Portugal', official_name: 'Portuguese Republic', topLevelDomain: Array(1), alpha2Code: 'PT', alpha3Code: 'PRT', …}
+// pw
+// : 
+// {name: 'Palau', official_name: 'Republic of Palau', topLevelDomain: Array(1), alpha2Code: 'PW', alpha3Code: 'PLW', …}
+// py
+// : 
+// {name: 'Paraguay', official_name: 'Republic of Paraguay', topLevelDomain: Array(1), alpha2Code: 'PY', alpha3Code: 'PRY', …}
+// qa
+// : 
+// {name: 'Qatar', official_name: 'State of Qatar', topLevelDomain: Array(1), alpha2Code: 'QA', alpha3Code: 'QAT', …}
+// re
+// : 
+// {name: 'Réunion', official_name: 'Réunion Island', topLevelDomain: Array(1), alpha2Code: 'RE', alpha3Code: 'REU', …}
+// ro
+// : 
+// {name: 'Romania', official_name: 'Romania', topLevelDomain: Array(1), alpha2Code: 'RO', alpha3Code: 'ROU', …}
+// rs
+// : 
+// {name: 'Serbia', official_name: 'Republic of Serbia', topLevelDomain: Array(1), alpha2Code: 'RS', alpha3Code: 'SRB', …}
+// ru
+// : 
+// {name: 'Russia', official_name: 'Russian Federation', topLevelDomain: Array(1), alpha2Code: 'RU', alpha3Code: 'RUS', …}
+// rw
+// : 
+// {name: 'Rwanda', official_name: 'Republic of Rwanda', topLevelDomain: Array(1), alpha2Code: 'RW', alpha3Code: 'RWA', …}
+// sa
+// : 
+// {name: 'Saudi Arabia', official_name: 'Kingdom of Saudi Arabia', topLevelDomain: Array(1), alpha2Code: 'SA', alpha3Code: 'SAU', …}
+// sb
+// : 
+// {name: 'Solomon Islands', official_name: 'Solomon Islands', topLevelDomain: Array(1), alpha2Code: 'SB', alpha3Code: 'SLB', …}
+// sc
+// : 
+// {name: 'Seychelles', official_name: 'Republic of Seychelles', topLevelDomain: Array(1), alpha2Code: 'SC', alpha3Code: 'SYC', …}
+// sd
+// : 
+// {name: 'Sudan', official_name: 'Republic of the Sudan', topLevelDomain: Array(1), alpha2Code: 'SD', alpha3Code: 'SDN', …}
+// se
+// : 
+// {name: 'Sweden', official_name: 'Kingdom of Sweden', topLevelDomain: Array(1), alpha2Code: 'SE', alpha3Code: 'SWE', …}
+// sg
+// : 
+// {name: 'Singapore', official_name: 'Republic of Singapore', topLevelDomain: Array(1), alpha2Code: 'SG', alpha3Code: 'SGP', …}
+// sh
+// : 
+// {name: 'Saint Helena, Ascension and Tristan da Cunha', official_name: 'Saint Helena, Ascension and Tristan da Cunha', topLevelDomain: Array(1), alpha2Code: 'SH', alpha3Code: 'SHN', …}
+// si
+// : 
+// {name: 'Slovenia', official_name: 'Republic of Slovenia', topLevelDomain: Array(1), alpha2Code: 'SI', alpha3Code: 'SVN', …}
+// sj
+// : 
+// {name: 'Svalbard and Jan Mayen', official_name: 'Svalbard og Jan Mayen', topLevelDomain: Array(1), alpha2Code: 'SJ', alpha3Code: 'SJM', …}
+// sk
+// : 
+// {name: 'Slovakia', official_name: 'Slovak Republic', topLevelDomain: Array(1), alpha2Code: 'SK', alpha3Code: 'SVK', …}
+// sl
+// : 
+// {name: 'Sierra Leone', official_name: 'Republic of Sierra Leone', topLevelDomain: Array(1), alpha2Code: 'SL', alpha3Code: 'SLE', …}
+// sm
+// : 
+// {name: 'San Marino', official_name: 'Republic of San Marino', topLevelDomain: Array(1), alpha2Code: 'SM', alpha3Code: 'SMR', …}
+// sn
+// : 
+// {name: 'Senegal', official_name: 'Republic of Senegal', topLevelDomain: Array(1), alpha2Code: 'SN', alpha3Code: 'SEN', …}
+// so
+// : 
+// {name: 'Somalia', official_name: 'Federal Republic of Somalia', topLevelDomain: Array(1), alpha2Code: 'SO', alpha3Code: 'SOM', …}
+// sr
+// : 
+// {name: 'Suriname', official_name: 'Republic of Suriname', topLevelDomain: Array(1), alpha2Code: 'SR', alpha3Code: 'SUR', …}
+// ss
+// : 
+// {name: 'South Sudan', official_name: 'Republic of South Sudan', topLevelDomain: Array(1), alpha2Code: 'SS', alpha3Code: 'SSD', …}
+// st
+// : 
+// {name: 'São Tomé and Príncipe', official_name: 'Democratic Republic of São Tomé and Príncipe', topLevelDomain: Array(1), alpha2Code: 'ST', alpha3Code: 'STP', …}
+// sv
+// : 
+// {name: 'El Salvador', official_name: 'Republic of El Salvador', topLevelDomain: Array(1), alpha2Code: 'SV', alpha3Code: 'SLV', …}
+// sx
+// : 
+// {name: 'Sint Maarten', official_name: 'Sint Maarten', topLevelDomain: Array(1), alpha2Code: 'SX', alpha3Code: 'SXM', …}
+// sy
+// : 
+// {name: 'Syria', official_name: 'Syrian Arab Republic', topLevelDomain: Array(1), alpha2Code: 'SY', alpha3Code: 'SYR', …}
+// sz
+// : 
+// {name: 'Eswatini', official_name: 'Kingdom of Eswatini', topLevelDomain: Array(1), alpha2Code: 'SZ', alpha3Code: 'SWZ', …}
+// tc
+// : 
+// {name: 'Turks and Caicos Islands', official_name: 'Turks and Caicos Islands', topLevelDomain: Array(1), alpha2Code: 'TC', alpha3Code: 'TCA', …}
+// td
+// : 
+// {name: 'Chad', official_name: 'Republic of Chad', topLevelDomain: Array(1), alpha2Code: 'TD', alpha3Code: 'TCD', …}
+// tf
+// : 
+// {name: 'French Southern and Antarctic Lands', official_name: 'Territory of the French Southern and Antarctic Lands', topLevelDomain: Array(1), alpha2Code: 'TF', alpha3Code: 'ATF', …}
+// tg
+// : 
+// {name: 'Togo', official_name: 'Togolese Republic', topLevelDomain: Array(1), alpha2Code: 'TG', alpha3Code: 'TGO', …}
+// th
+// : 
+// {name: 'Thailand', official_name: 'Kingdom of Thailand', topLevelDomain: Array(1), alpha2Code: 'TH', alpha3Code: 'THA', …}
+// tj
+// : 
+// {name: 'Tajikistan', official_name: 'Republic of Tajikistan', topLevelDomain: Array(1), alpha2Code: 'TJ', alpha3Code: 'TJK', …}
+// tk
+// : 
+// {name: 'Tokelau', official_name: 'Tokelau', topLevelDomain: Array(1), alpha2Code: 'TK', alpha3Code: 'TKL', …}
+// tl
+// : 
+// {name: 'Timor-Leste', official_name: 'Democratic Republic of Timor-Leste', topLevelDomain: Array(1), alpha2Code: 'TL', alpha3Code: 'TLS', …}
+// tm
+// : 
+// {name: 'Turkmenistan', official_name: 'Turkmenistan', topLevelDomain: Array(1), alpha2Code: 'TM', alpha3Code: 'TKM', …}
+// tn
+// : 
+// {name: 'Tunisia', official_name: 'Tunisian Republic', topLevelDomain: Array(1), alpha2Code: 'TN', alpha3Code: 'TUN', …}
+// to
+// : 
+// {name: 'Tonga', official_name: 'Kingdom of Tonga', topLevelDomain: Array(1), alpha2Code: 'TO', alpha3Code: 'TON', …}
+// tr
+// : 
+// {name: 'Turkey', official_name: 'Republic of Turkey', topLevelDomain: Array(1), alpha2Code: 'TR', alpha3Code: 'TUR', …}
+// tt
+// : 
+// {name: 'Trinidad and Tobago', official_name: 'Republic of Trinidad and Tobago', topLevelDomain: Array(1), alpha2Code: 'TT', alpha3Code: 'TTO', …}
+// tv
+// : 
+// {name: 'Tuvalu', official_name: 'Tuvalu', topLevelDomain: Array(1), alpha2Code: 'TV', alpha3Code: 'TUV', …}
+// tw
+// : 
+// {name: 'Taiwan', official_name: 'Republic of China (Taiwan)', topLevelDomain: Array(1), alpha2Code: 'TW', alpha3Code: 'TWN', …}
+// tz
+// : 
+// {name: 'Tanzania', official_name: 'United Republic of Tanzania', topLevelDomain: Array(1), alpha2Code: 'TZ', alpha3Code: 'TZA', …}
+// ua
+// : 
+// {name: 'Ukraine', official_name: 'Ukraine', topLevelDomain: Array(1), alpha2Code: 'UA', alpha3Code: 'UKR', …}
+// ug
+// : 
+// {name: 'Uganda', official_name: 'Republic of Uganda', topLevelDomain: Array(1), alpha2Code: 'UG', alpha3Code: 'UGA', …}
+// um
+// : 
+// {name: 'United States Minor Outlying Islands', official_name: 'United States Minor Outlying Islands', topLevelDomain: Array(1), alpha2Code: 'UM', alpha3Code: 'UMI', …}
+// us
+// : 
+// {name: 'United States', official_name: 'United States of America', topLevelDomain: Array(1), alpha2Code: 'US', alpha3Code: 'USA', …}
+// uy
+// : 
+// {name: 'Uruguay', official_name: 'Oriental Republic of Uruguay', topLevelDomain: Array(1), alpha2Code: 'UY', alpha3Code: 'URY', …}
+// uz
+// : 
+// {name: 'Uzbekistan', official_name: 'Republic of Uzbekistan', topLevelDomain: Array(1), alpha2Code: 'UZ', alpha3Code: 'UZB', …}
+// va
+// : 
+// {name: 'Vatican City', official_name: 'Vatican City State', topLevelDomain: Array(1), alpha2Code: 'VA', alpha3Code: 'VAT', …}
+// vc
+// : 
+// {name: 'Saint Vincent and the Grenadines', official_name: 'Saint Vincent and the Grenadines', topLevelDomain: Array(1), alpha2Code: 'VC', alpha3Code: 'VCT', …}
+// ve
+// : 
+// {name: 'Venezuela', official_name: 'Bolivarian Republic of Venezuela', topLevelDomain: Array(1), alpha2Code: 'VE', alpha3Code: 'VEN', …}
+// vg
+// : 
+// {name: 'British Virgin Islands', official_name: 'Virgin Islands', topLevelDomain: Array(1), alpha2Code: 'VG', alpha3Code: 'VGB', …}
+// vi
+// : 
+// {name: 'United States Virgin Islands', official_name: 'Virgin Islands of the United States', topLevelDomain: Array(1), alpha2Code: 'VI', alpha3Code: 'VIR', …}
+// vn
+// : 
+// {name: 'Vietnam', official_name: 'Socialist Republic of Vietnam', topLevelDomain: Array(1), alpha2Code: 'VN', alpha3Code: 'VNM', …}
+// vu
+// : 
+// {name: 'Vanuatu', official_name: 'Republic of Vanuatu', topLevelDomain: Array(1), alpha2Code: 'VU', alpha3Code: 'VUT', …}
+// wf
+// : 
+// {name: 'Wallis and Futuna', official_name: 'Territory of the Wallis and Futuna Islands', topLevelDomain: Array(1), alpha2Code: 'WF', alpha3Code: 'WLF', …}
+// ws
+// : 
+// {name: 'Samoa', official_name: 'Independent State of Samoa', topLevelDomain: Array(1), alpha2Code: 'WS', alpha3Code: 'WSM', …}
+// xk
+// : 
+// {name: 'Kosovo', official_name: 'Republic of Kosovo', topLevelDomain: 'N/A', alpha2Code: 'XK', alpha3Code: 'UNK', …}
+// ye
+// : 
+// {name: 'Yemen', official_name: 'Republic of Yemen', topLevelDomain: Array(1), alpha2Code: 'YE', alpha3Code: 'YEM', …}
+// yt
+// : 
+// {name: 'Mayotte', official_name: 'Department of Mayotte', topLevelDomain: Array(1), alpha2Code: 'YT', alpha3Code: 'MYT', …}
+// za
+// : 
+// {name: 'South Africa', official_name: 'Republic of South Africa', topLevelDomain: Array(1), alpha2Code: 'ZA', alpha3Code: 'ZAF', …}
+// zm
+// : 
+// {name: 'Zambia', official_name: 'Republic of Zambia', topLevelDomain: Array(1), alpha2Code: 'ZM', alpha3Code: 'ZMB', …}
+// zw
+// : 
+// {name: 'Zimbabwe', official_name: 'Republic of Zimbabwe', topLevelDomain: Array(1), alpha2Code: 'ZW', alpha3Code: 'ZWE', …}
+// ]

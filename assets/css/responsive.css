@@ -1,0 +1,173 @@
+@media screen and (max-width: 768px) {
+  .cat-title {
+    font-size: 12px;
+    gap: 3px;
+  }
+  .icon-text h6 {
+    font-size: 14px;
+  }
+  .icon-text p {
+    font-size: 14px;
+  }
+  .shop-filter-col {
+    margin: 15px 0px;
+  }
+  .product-opts {
+    width: 100%;
+  }
+  .review-title {
+    font-size: 14px;
+  }
+  .reviewer-details,
+  .service-execept,
+  .review-description {
+    font-size: 12px;
+  }
+  .checkout-items-div {
+    margin-top: 12px;
+  }
+  .checkout-images{
+    width:60% !important;
+  }
+  .sig ul li
+  {
+      padding:20px 8px 0px 8px;
+  }
+  #navbarDropdown {
+        padding: 5px 10px;
+    }
+}
+@media screen and (max-width: 640px) {
+  .icon-text {
+    margin: 0px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .product-btn-wrapper {
+    margin: 10px 0px !important;
+  }
+  .product-excerpt {
+    margin: 12px 0px !important;
+  }
+  .price-wrapper {
+    margin: 8px 0px !important;
+  }
+  .rating-wrapper {
+    margin: 5px 0px !important;
+  }
+  .product-review {
+    padding: 10px !important;
+  }
+  .cart-head-div {
+    display: none !important;
+  }
+  .cart-row {
+    flex-direction: column !important;
+  }
+  .cart-boxes,
+  .title-box {
+    width: 100% !important;
+    justify-content: center !important;
+    gap: 10px;
+  }
+  .thk-message {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .m-toast {
+    width: 280px;
+    left: 0;
+  }
+  .toast-child {
+    font-size: 12px;
+  }
+  .toast-child span {
+    font-size: 12px;
+  }
+  .filter-body {
+    display: none;
+  }
+  .product-review {
+    padding: 10px;
+  }
+  .sng-product-title,
+  .sng-service-title {
+    padding: 10px;
+  }
+  .reviewer-image {
+    width: 100%;
+  }
+  .info-nav-ul {
+    flex-direction: column !important;
+  }
+  .check-inp-mini-div {
+    width: 100% !important;
+    gap: 0px;
+  }
+  .thk-message {
+    flex-direction: column;
+    align-items: center;
+  }
+  .order-info h4{
+    font-size: 14px !important;
+  }
+  .coupon_card{
+    padding: 0px;
+  }
+  .popop-content-wrapper, .success-message-container, .error-message-container{
+    width: 280px ;
+  }
+  .order-complete-box{
+    width: 280px !important;
+  }
+  .order-animation img{
+    width: 100px ;
+  }
+  .order-completion-title{
+    font-size: 14px;
+  }
+  .order-completion-message{
+    font-size: 12px;
+  }
+  .top{
+      text-align:center;
+  }
+  .db{
+      padding:15px 0px 10px 0px;
+  }
+  .fol
+    {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 360px) {
+  .multivendor-cart-div {
+    width: 260px;
+  }
+  .c-item-title,
+  .quantity-div,
+  .multipled-price,
+  .subtotal-label,
+  .cart-action-btn {
+    font-size: 12px;
+  }
+  .order-items-table table thead th, .order-items-table table tbody td {
+    padding: 4px !important;
+    font-size: 12px !important;
+  }
+  .coupon-service-p,.order-info p, .order-data p{
+    font-size: 12px !important;
+  }
+  .coupon-code,.coupon-service-title{
+    font-size: 14px !important;
+  }
+  .chk-page-msg{
+    font-size: 12px !important;
+  }
+  .top a img
+  {
+      width:80%;
+  }
+}

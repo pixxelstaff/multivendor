@@ -1,0 +1,307 @@
+[28-May-2024 14:03:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/admsindhfu/ml.sindhfurniture.com/connect.php:7
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/connect.php(7): mysqli_connect()
+#1 /home/admsindhfu/ml.sindhfurniture.com/include/links.php(33): include('/home/admsindhf...')
+#2 /home/admsindhfu/ml.sindhfurniture.com/index.php(12): include('/home/admsindhf...')
+#3 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/connect.php on line 7
+[28-May-2024 14:05:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/admsindhfu/ml.sindhfurniture.com/connect.php:7
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/connect.php(7): mysqli_connect()
+#1 /home/admsindhfu/ml.sindhfurniture.com/include/links.php(33): include('/home/admsindhf...')
+#2 /home/admsindhfu/ml.sindhfurniture.com/index.php(12): include('/home/admsindhf...')
+#3 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/connect.php on line 7
+[29-May-2024 15:42:02 UTC] PHP Parse error:  Unclosed '{' on line 283 in /home/admsindhfu/ml.sindhfurniture.com/vendor-reg.php on line 413
+[29-May-2024 15:42:10 UTC] PHP Parse error:  Unclosed '{' on line 283 in /home/admsindhfu/ml.sindhfurniture.com/vendor-reg.php on line 413
+[29-May-2024 15:42:48 UTC] PHP Parse error:  Unclosed '{' on line 283 in /home/admsindhfu/ml.sindhfurniture.com/vendor-reg.php on line 413
+[29-May-2024 15:43:31 UTC] PHP Parse error:  Unclosed '{' on line 283 in /home/admsindhfu/ml.sindhfurniture.com/vendor-reg.php on line 413
+[29-May-2024 15:45:40 UTC] PHP Parse error:  Unclosed '{' on line 283 in /home/admsindhfu/ml.sindhfurniture.com/vendor-reg.php on line 413
+[29-May-2024 15:45:55 UTC] PHP Parse error:  Unclosed '{' on line 283 in /home/admsindhfu/ml.sindhfurniture.com/vendor-reg.php on line 413
+[29-May-2024 16:56:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function fetchAllData() in /home/admsindhfu/ml.sindhfurniture.com/vendor-reg.php:87
+Stack trace:
+#0 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-reg.php on line 87
+[29-May-2024 23:55:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:55
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(55): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 55
+[29-May-2024 23:55:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:55
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(55): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 55
+[29-May-2024 23:55:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:55
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(55): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 55
+[29-May-2024 23:55:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:55
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(55): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 55
+[29-May-2024 23:55:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:55
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(55): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 55
+[29-May-2024 23:56:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:55
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(55): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 55
+[29-May-2024 23:56:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:55
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(55): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 55
+[30-May-2024 00:29:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:29:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:30:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:30:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:30:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:30:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:30:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:39:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:39:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:39:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:39:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:39:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:39:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:39:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:40:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:40:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:44:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:44:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:45:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:45:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:45:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:45:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[30-May-2024 00:45:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`admsindhfu_ml`.`vendor`, CONSTRAINT `v_city_key` FOREIGN KEY (`city`) REFERENCES `city` (`Id`)) in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php:53
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php(53): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/vendor-sub.php on line 53
+[04-Jun-2024 14:30:46 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 210
+[04-Jun-2024 14:30:52 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 210
+[04-Jun-2024 14:30:56 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 210
+[04-Jun-2024 14:31:17 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 210
+[04-Jun-2024 14:31:58 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 210
+[04-Jun-2024 14:32:01 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 210
+[04-Jun-2024 14:32:02 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 210
+[04-Jun-2024 14:32:04 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 210
+[04-Jun-2024 14:32:25 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 210
+[04-Jun-2024 14:32:27 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 210
+[04-Jun-2024 14:43:55 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 238
+[04-Jun-2024 14:44:25 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 238
+[04-Jun-2024 14:47:10 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 239
+[04-Jun-2024 14:47:25 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 239
+[04-Jun-2024 14:49:09 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 238
+[04-Jun-2024 14:49:40 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 239
+[04-Jun-2024 14:49:59 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 239
+[04-Jun-2024 14:54:26 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 238
+[04-Jun-2024 14:55:12 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 238
+[04-Jun-2024 14:57:28 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 238
+[04-Jun-2024 15:00:07 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 238
+[04-Jun-2024 15:02:22 UTC] PHP Parse error:  syntax error, unexpected identifier "pkr", expecting "," or ";" in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 238
+[04-Jun-2024 15:02:36 UTC] PHP Parse error:  syntax error, unexpected identifier "pkr", expecting "," or ";" in /home/admsindhfu/ml.sindhfurniture.com/index.php on line 238
+[07-Jun-2024 14:42:30 UTC] PHP Warning:  Undefined variable $user__id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1056
+[07-Jun-2024 14:42:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'user_id' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1068
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1068): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1068
+[07-Jun-2024 14:46:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'item_options' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:305
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(305): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 305
+[07-Jun-2024 14:51:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'item_options' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1105
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1105): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1105
+[07-Jun-2024 14:52:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'item_options' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1105
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1105): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1105
+[07-Jun-2024 15:07:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'item_options' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1096
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1096): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1096
+[07-Jun-2024 15:09:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'item_options' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1105
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1105): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1105
+[07-Jun-2024 15:09:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'item_options' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1105
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1105): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1105
+[07-Jun-2024 15:12:25 UTC] PHP Warning:  Undefined array key "user_email" in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 195
+[07-Jun-2024 15:13:12 UTC] PHP Warning:  Undefined variable $user_id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1056
+[07-Jun-2024 15:13:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'user_id' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1068
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1068): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1068
+[07-Jun-2024 15:28:30 UTC] PHP Warning:  Undefined array key "user_email" in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 195
+[07-Jun-2024 15:31:15 UTC] PHP Warning:  Undefined variable $user_id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1056
+[07-Jun-2024 15:31:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'user_id' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1068
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1068): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1068
+[07-Jun-2024 15:33:45 UTC] PHP Warning:  Undefined array key "user_email" in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 195
+[07-Jun-2024 15:38:56 UTC] PHP Warning:  Undefined variable $user_id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1056
+[07-Jun-2024 15:38:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'user_id' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1068
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1068): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1068
+[07-Jun-2024 15:50:14 UTC] PHP Warning:  Undefined array key "user_email" in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 195
+[07-Jun-2024 15:51:10 UTC] PHP Warning:  Undefined variable $user_id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1056
+[07-Jun-2024 15:51:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'user_id' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1068
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1068): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1068
+[07-Jun-2024 16:08:27 UTC] PHP Warning:  Undefined variable $user_id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1056
+[07-Jun-2024 16:15:21 UTC] PHP Warning:  Undefined variable $user_id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1056
+[07-Jun-2024 16:15:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'user_id' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1067
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1067): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1067
+[07-Jun-2024 16:17:49 UTC] PHP Warning:  Undefined variable $user_id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1056
+[07-Jun-2024 16:17:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'user_id' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1067
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1067): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1067
+[07-Jun-2024 16:18:23 UTC] PHP Warning:  Undefined variable $user_id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1056
+[07-Jun-2024 16:18:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'user_id' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1067
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1067): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1067
+[08-Jun-2024 09:54:37 UTC] PHP Warning:  Undefined array key "user_email" in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 195
+[08-Jun-2024 09:56:53 UTC] PHP Warning:  Undefined variable $user_id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1056
+[08-Jun-2024 09:56:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'user_id' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1067
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1067): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1067
+[08-Jun-2024 10:09:52 UTC] PHP Warning:  Undefined variable $user_id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1056
+[08-Jun-2024 10:09:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'user_id' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1068
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1068): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1068
+[08-Jun-2024 10:12:38 UTC] PHP Warning:  Undefined variable $user_id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1056
+[08-Jun-2024 10:12:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'user_id' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1068
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1068): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1068
+[08-Jun-2024 10:15:34 UTC] PHP Warning:  Undefined variable $user_id in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1059
+[08-Jun-2024 10:15:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'user_id' cannot be null in /home/admsindhfu/ml.sindhfurniture.com/checkout.php:1071
+Stack trace:
+#0 /home/admsindhfu/ml.sindhfurniture.com/checkout.php(1071): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/admsindhfu/ml.sindhfurniture.com/checkout.php on line 1071
+[08-Jun-2024 15:16:27 UTC] PHP Warning:  DateTime::modify(): Failed to parse time string (+ days) at position 0 (+): Unexpected character in /home/admsindhfu/ml.sindhfurniture.com/customFunc.php on line 217
+[08-Jun-2024 15:16:31 UTC] PHP Warning:  DateTime::modify(): Failed to parse time string (+ days) at position 0 (+): Unexpected character in /home/admsindhfu/ml.sindhfurniture.com/customFunc.php on line 217
